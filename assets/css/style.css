@@ -1,9 +1,17 @@
-.navbar-brand {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    
+.navbar {
+	background-color: white;
+	border: 2px solid #cccccc;
+	height: 60px;
 }
 
-.white {
+.navbar-default .navbar-brand {
 	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    height: 56px;
 }
+
+.navbar-default .navbar-nav > .active > a{
+	height: 56px;
+}
+
