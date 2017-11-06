@@ -1,3 +1,29 @@
+body {
+	height: 100%
+    margin: 0;
+	background-image: url("../images/textured_paper_@2X.png");
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 .navbar {
 	background-color: white;
 	border: 2px solid #cccccc;
@@ -13,5 +39,43 @@
 
 .navbar-default .navbar-nav > .active > a{
 	height: 56px;
+}
+
+.sectionContent {
+   background-color: #ffffff;
+   border: 1px solid #dddddd;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color: #777777;
+   margin-top: 80px;
+}
+
+.externalLinks {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
+#github {
+    background-image: url('../images/github_icon_normal.png');
+}
+
+#github:hover {
+    background-image: url('../images/github_icon_hover.png');
+}
+
+#linkedin {
+    background-image: url('../images/linkedin_icon_normal.png');
+}
+
+#linkedin:hover {
+    background-image: url('../images/linkedin_icon_hover.png');
+}
+
+#stackoverflow {
+    background-image: url('../images/stackoverflow_icon_normal.png');
+}
+
+#stackoverflow:hover {
+    background-image: url('../images/stackoverflow_icon_hover.png');
 }
 
