@@ -65,6 +65,18 @@ textarea {
     height: 200px;
 }
 
+.portfolioLink {
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 #github {
     background-image: url('../images/github_icon_normal.png');
 }
