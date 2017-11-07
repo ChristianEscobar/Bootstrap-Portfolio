@@ -60,6 +60,11 @@ textarea {
     display: inline-block;
 }
 
+.portfolioImage {
+    width: 200px;
+    height: 200px;
+}
+
 #github {
     background-image: url('../images/github_icon_normal.png');
 }
