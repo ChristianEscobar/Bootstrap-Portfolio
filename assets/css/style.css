@@ -121,7 +121,7 @@ main {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #4aaaa5;
     color: white;
-    width: 200px;
+    width: 92%;
     height: 50px;
     top: 0;
     left: 0;
@@ -140,6 +140,8 @@ main {
     /*top: 450px;*/
     line-height: 50px; /* for centering vertically */
     text-align: center;
+    margin-top:  95px;
+    margin-left: 15px;
 }
 
 .portfolioLink.rpgLink {
@@ -147,12 +149,16 @@ main {
     left: 596px;*/
     line-height: 50px; /* for centering vertically */
     text-align: center;
+    margin-top: 95px;
+    margin-left: 15px;
 }
 
 .portfolioLink.triviaLink {
     /*top: 700px;*/
     line-height: 50px; /* for centering vertically */
     text-align: center;
+    margin-top: 95px;
+    margin-left: 15px;
 }
 
 .portfolioLink.rutgersLink {
@@ -160,12 +166,16 @@ main {
     left:  596px;*/
     line-height: 50px; /* for centering vertically */
     text-align: center;
+    margin-top: 95px;
+    margin-left: 15px;
 }
 
 .portfolioLink.rockPaperLink {
     /*top: 940px;*/
     line-height: 50px; /* for centering vertically */
     text-align: center;
+    margin-top: 95px;
+    margin-left: 15px;
 }
 
 .top-buffer {
@@ -197,8 +207,23 @@ main {
 }
 
 @media screen and (max-width:  640px) {
-    .media-object {
-        padding-left: 9%;
-        padding-bottom: 9%;
+    .portfolioLink {
+        width: 92.7%;
+    }
+}
+
+@media screen and (max-width:  768px) {
+    .portfolioLink {
+        width: 55.7%;
+    }
+}
+
+@media screen and (max-width:  980px) {
+    .portfolioImgAndLink {
+        width: auto;
+    }
+
+    .portfolioLink {
+        width: 55.7%;
     }
 }
