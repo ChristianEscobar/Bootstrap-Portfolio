@@ -1,4 +1,5 @@
 body {
+    height: 100%;
     padding-top: 10%;
 	background-image: url("../images/textured_paper_@2X.png");
 }
@@ -28,21 +29,42 @@ textarea {
 	overflow: auto;
 }
 
+main {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
 .navbar {
 	background-color: white;
 	border: 2px solid #cccccc;
-	height: 60px;
+	height: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+.navbar-header {
+    height: 93px;
+    width: 30%;
 }
 
 .navbar-default .navbar-brand {
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    height: 56px;
+    height: 90%;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
 }
 
 .navbar-default .navbar-nav > .active > a{
-	height: 56px;
+	height: 100%;
+}
+
+.nav > li {
+    top: 4px;
+    height: 80px;
 }
 
 .sectionContent {
