@@ -60,6 +60,10 @@ main {
     font-size: 1.5em;
 }
 
+@keyframes slidein {
+
+}
+
 .navbar-header {
     height: 93px;
     width: 30%;
@@ -73,6 +77,13 @@ main {
     width: 100%;
     text-align: center;
     font-size: 2.5em;
+}
+
+/* Quick hack to stop background color from changing when pointer hovers */
+.navbar-default .navbar-brand:hover {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
 }
 
 .navbar-default .navbar-nav > .active > a{
