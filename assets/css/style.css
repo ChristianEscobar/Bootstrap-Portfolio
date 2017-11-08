@@ -165,15 +165,3 @@ main {
 #stackoverflow:hover {
     background-image: url('../images/stackoverflow_icon_hover.png');
 }
-
-@media screen and (max-width: 640px) {
-    body {
-        padding-top: 50%;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    body {
-        padding-top: 30%;
-    }
-}
