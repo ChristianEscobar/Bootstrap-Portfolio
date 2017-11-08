@@ -44,14 +44,6 @@ main {
     padding-right: 2%;
 }
 
-.navbar {
-	background-color: white;
-	border: 2px solid #cccccc;
-	height: 10%;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-
 .panel-heading h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -69,20 +61,31 @@ main {
 
 }
 
-.navbar-header {
-    height: 93px;
-    width: 30%;
+.navbar {
+    background-color: white;
+    border: 2px solid #cccccc;
+    /*height: 10%;*/
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .navbar-default .navbar-brand {
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    height: 90%;
-    width: 100%;
     text-align: center;
+    width: 70%;
+    height: 133%;
+    margin-top: 0;
     font-size: 2.5em;
+    padding-top: 25px;
 }
+
+.navbar-header {
+    width: 50%;
+    height: 60px;
+}
+
 
 /* Quick hack to stop background color from changing when pointer hovers */
 .navbar-default .navbar-brand:hover {
@@ -91,9 +94,11 @@ main {
     background-color: #4aaaa5;
 }
 
+/*
 .navbar-default .navbar-nav > .active > a{
 	height: 100%;
 }
+*/
 
 .nav > li {
     top: 4px;
