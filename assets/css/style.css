@@ -34,6 +34,11 @@ main {
     padding-right: 15%;
 }
 
+.media-object {
+    float: left;
+    padding-right: 2%;
+}
+
 .navbar {
 	background-color: white;
 	border: 2px solid #cccccc;
@@ -176,4 +181,11 @@ main {
 
 #stackoverflow:hover {
     background-image: url('../images/stackoverflow_icon_hover.png');
+}
+
+@media screen and (max-width:  640px) {
+    .media-object {
+        padding-left: 9%;
+        padding-bottom: 9%;
+    }
 }
