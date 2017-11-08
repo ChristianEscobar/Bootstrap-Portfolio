@@ -42,6 +42,18 @@ main {
     padding-right: 15%;
 }
 
+.panel-heading h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-size: 2em;
+}
+
+.panel-heading h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+}
 
 .navbar-header {
     height: 93px;
