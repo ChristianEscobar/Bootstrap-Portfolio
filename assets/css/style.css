@@ -24,6 +24,11 @@ h2 {
     font-weight: bold;
 }
 
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
 textarea {
 	width: 100%;
 	overflow: auto;
@@ -93,14 +98,6 @@ main {
 .nav > li {
     top: 4px;
     height: 80px;
-}
-
-.sectionContent {
-   background-color: #ffffff;
-   border: 1px solid #dddddd;
-   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   color: #777777;
-   margin-top: 80px;
 }
 
 .externalLinks {
