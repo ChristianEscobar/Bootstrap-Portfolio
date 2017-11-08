@@ -82,8 +82,7 @@ main {
 }
 
 .portfolioImage {
-    width: 200px;
-    height: 200px;
+    position: relative;
 }
 
 .portfolioLink {
@@ -94,8 +93,53 @@ main {
     color: white;
     width: 200px;
     height: 50px;
+    top: 0;
+    left: 0;
     text-align: center;
     vertical-align: middle;
+    z-index: 1;
+}
+
+.portfolioImgAndLink a:hover {
+    background-color: #dcefee;
+    color: #777777;
+    text-decoration: none;
+}
+
+.portfolioLink.hangmanLink {
+    /*top: 450px;*/
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.rpgLink {
+    /*top: 450px;
+    left: 596px;*/
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.triviaLink {
+    /*top: 700px;*/
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.rutgersLink {
+    /*top: 700px;
+    left:  596px;*/
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.portfolioLink.rockPaperLink {
+    /*top: 940px;*/
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
+}
+
+.top-buffer {
+    margin-top: 20px;
 }
 
 #github {
