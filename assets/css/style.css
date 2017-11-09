@@ -220,6 +220,14 @@ main {
     .portfolioLink {
         width: 92.7%;
     }
+
+    .container {
+        padding-top: 50%;
+    }
+
+    .navbar-brand {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:  768px) {
