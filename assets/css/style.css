@@ -201,6 +201,11 @@ main {
         padding-left: 1%;
         padding-right: 0;
     }
+
+    .btn-primary {
+        width: 58.7%;
+        margin-left: 20.7%
+    }
 }
 
 @media screen and (max-width:  980px) {
