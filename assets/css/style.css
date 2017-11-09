@@ -103,6 +103,11 @@ main {
     height: 80px;
 }
 
+.btn-default {
+    background-color: #4aaaa5;
+    color: white;
+}
+
 .btn-primary {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-color: #4aaaa5;
