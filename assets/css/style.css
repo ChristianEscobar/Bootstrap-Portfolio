@@ -105,12 +105,6 @@ main {
     height: 80px;
 }
 
-.externalLinks {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-}
-
 .portfolioImage {
     position: relative;
 }
@@ -182,28 +176,40 @@ main {
     margin-top: 20px;
 }
 
+.external-links {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+
 #github {
     background-image: url('../images/github_icon_normal.png');
+    background-repeat: no-repeat;
 }
 
 #github:hover {
     background-image: url('../images/github_icon_hover.png');
+    background-repeat: no-repeat;
 }
 
 #linkedin {
     background-image: url('../images/linkedin_icon_normal.png');
+    background-repeat: no-repeat;
 }
 
 #linkedin:hover {
     background-image: url('../images/linkedin_icon_hover.png');
+    background-repeat: no-repeat;
 }
 
 #stackoverflow {
     background-image: url('../images/stackoverflow_icon_normal.png');
+    background-repeat: no-repeat;
 }
 
 #stackoverflow:hover {
     background-image: url('../images/stackoverflow_icon_hover.png');
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width:  640px) {
