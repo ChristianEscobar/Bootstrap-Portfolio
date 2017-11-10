@@ -1,6 +1,12 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
-    height: 100%;
     padding-top: 10%;
+    /* Margin bottom by footer height */
+    margin-bottom: 90px;
 	background-image: url("../images/textured_paper_@2X.png");
 }
 
@@ -192,6 +198,23 @@ main {
 #stackoverflow:hover {
     background-image: url('../images/stackoverflow_icon_hover.png');
     background-repeat: no-repeat;
+}
+
+.footer {
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    background-color: grey;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 72px;
+    color: #bfbfbf;
+    left: 0;
+    bottom: 0;
+}
+
+.footer > .container > .text-muted {
+    color: #bfbfbf;
 }
 
 @media screen and (max-width:  640px) {
