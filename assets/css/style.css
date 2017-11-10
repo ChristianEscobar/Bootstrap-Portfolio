@@ -228,6 +228,10 @@ main {
         margin-left: 10%;
     }
 
+    .footer-container {
+        padding-top: 0;
+    }
+
     .navbar-brand {
         width: 115%;
     }
