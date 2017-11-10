@@ -191,6 +191,11 @@ main {
     margin-top: 20px;
 }
 
+.clickable {
+    width: 60px;
+    height: 60px;
+}
+
 .external-links {
     width: 60px;
     height: 60px;
