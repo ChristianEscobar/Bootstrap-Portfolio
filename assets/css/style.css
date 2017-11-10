@@ -38,6 +38,7 @@ p {
 textarea {
 	width: 100%;
 	overflow: auto;
+    resize: none;
 }
 
 main {
@@ -218,10 +219,6 @@ main {
 }
 
 @media screen and (max-width:  640px) {
-    .portfolioLink {
-        width: 92.7%;
-    }
-
     .container {
         padding-top: 50%;
         margin-left: 10%;
