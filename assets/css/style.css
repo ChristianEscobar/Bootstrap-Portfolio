@@ -114,6 +114,12 @@ main {
     margin-right: 0;
 }
 
+.navbar-right > li {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 1.5em;
+}
+
 .navbar-default .navbar-brand {
 	color: white;
 	font-family: 'Georgia', Times, Times New Roman, serif;
