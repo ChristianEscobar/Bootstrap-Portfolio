@@ -125,19 +125,17 @@ main {
 	font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     text-align: center;
-    /*width: 70%;*/
     height: 133%;
     margin-top: 0;
     font-size: 2.5em;
     padding-top: 25px;
 }
 
- .navbar > .container-fluid .navbar-brand {
+.navbar > .container-fluid .navbar-brand {
     margin-left: 0;
 }
 
 .navbar-header {
-    /*width: 50%;*/
     height: 60px;
 }
 
@@ -192,14 +190,13 @@ main {
 }
 
 .clickable {
-    width: 60px;
-    height: 60px;
+    width: 100%;
 }
 
 .external-links {
     width: 60px;
     height: 60px;
-    display: inline-block;
+    display: block;
 }
 
 .external-links span {
@@ -208,13 +205,14 @@ main {
     height:100%;
     top:0;
     left: 0;
-
+    display: block;
     z-index: 1;
 }
 
 #github {
     background-image: url('../images/github_icon_normal.png');
     background-repeat: no-repeat;
+    margin-left: 40px;
 }
 
 #github:hover {
@@ -235,6 +233,7 @@ main {
 #stackoverflow {
     background-image: url('../images/stackoverflow_icon_normal.png');
     background-repeat: no-repeat;
+    margin-left: -40px;
 }
 
 #stackoverflow:hover {
@@ -277,6 +276,14 @@ main {
         padding-top: 2%;
         width: 117.5%;
     }
+
+    #github {
+        margin-left: 0;
+    }
+
+    #linkedin {
+        margin-left: 100%;
+    }
 }
 
 @media screen and (max-width:  768px) {
@@ -292,16 +299,44 @@ main {
 
     .btn-primary {
         width: 58.7%;
-        margin-left: 20.7%
+        margin-left: 20.7%;
+    }
+
+    #github{
+        margin-left: 50%;
+    }
+
+    #linkedin {
+        margin-left: -30%;
+    }
+
+    #stackoverflow {
+        margin-left: -110%;
     }
 }
 
 @media screen and (max-width:  980px) {
     .navbar > .container-fluid .navbar-brand {
-        margin-left: 0;
+        margin-left: -.5%;
     }
 
     .navbar-right {
         margin-right: -10%;
+    }
+
+    .clickable {
+        margin-left: -50%;
+    }
+
+    #github{
+        margin-left: 50%;
+    }
+
+    #linkedin {
+        margin-left: -30%;
+    }
+
+    #stackoverflow {
+        margin-left: -110%;
     }
 }
